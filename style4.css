@@ -1,0 +1,22 @@
+.man{
+    display: flex;
+    background-color: #e4c49f;
+    justify-content: space-around;
+    padding-top: 10px;
+}
+
+img{
+    width: 300px;
+    height: 300px ;
+}
+
+p{
+    font-size: large;
+}
+
+@media all and (max-width: 500px){
+    .man{
+        flex-direction: column;
+        padding: 50px;
+    }
+}
